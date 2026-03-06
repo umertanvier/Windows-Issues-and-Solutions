@@ -43,7 +43,5 @@
 ## Fix:
 
 After performing these troubleshooting steps, the issue was resolved by **reinstalling the application** and running the **SFC scan** to repair any corrupted system files. Running the application as **Administrator** also helped, especially for applications that require elevated privileges.
-## Demo Image:
-![Application Not Opening](Windows-Top-12-Common-Problems-Fix/04_Application_Not_Opening/app-not-opening.jpg)
 
 
