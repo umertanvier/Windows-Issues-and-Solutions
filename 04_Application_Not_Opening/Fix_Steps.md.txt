@@ -46,3 +46,4 @@ After performing these troubleshooting steps, the issue was resolved by **reinst
 ## Demo Image:
 ![Application Not Opening](Windows-Top-12-Common-Problems-Fix/04_Application_Not_Opening/app-not-opening.jpg)
 
+
