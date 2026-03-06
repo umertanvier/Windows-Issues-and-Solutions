@@ -1,0 +1,44 @@
+# System Slowdown Issue
+
+## Symptoms:
+- The system feels sluggish and applications take longer than usual to respond.
+- CPU usage is consistently high, often nearing 100%.
+- RAM usage is excessive, leading to slower performance, especially when multiple programs are open.
+- Hard drive activity is high, causing noticeable delays in accessing files or loading programs.
+
+## Steps to Troubleshoot:
+
+1. **Check Task Manager for Resource Usage**:
+   - Press `Ctrl + Shift + Esc` to open Task Manager.
+   - Go to the **Performance** tab to monitor CPU, RAM, and Disk usage.
+   - Identify any processes consuming an unusually high amount of resources.
+
+2. **Disable Unnecessary Startup Programs**:
+   - Press `Windows + R`, type `msconfig`, and press Enter.
+   - In the **Startup** tab, uncheck any unnecessary programs that launch when the system starts.
+   - Restart the system after making changes.
+
+3. **Run Disk Cleanup**:
+   - Open the **Start Menu**, type "Disk Cleanup," and select the tool.
+   - Select the drive you want to clean (usually C: drive).
+   - Check the boxes for system files, temporary files, and other unnecessary files, and click **OK** to delete them.
+
+
+4. **Update System Drivers**:
+   - Go to **Device Manager** (right-click on the Start button and select **Device Manager**).
+   - Look for devices with a yellow exclamation mark (indicating outdated drivers).
+   - Right-click on the device and select **Update Driver**.
+
+5. **Check for Malware or Virus**:
+   - Run a full system scan using **Windows Defender** or another trusted antivirus software.
+   - Malware can often cause high CPU and RAM usage, contributing to system slowdown.
+
+6. **Check for Windows Updates**:
+   - Go to **Settings > Update & Security > Windows Update**.
+   - Ensure that all the latest updates are installed, as they can include performance improvements and bug fixes.
+
+7. **Consider Adding More RAM** (if applicable):
+   - If the system is running low on memory and performance is still slow, consider upgrading the RAM.
+
+## Fix:
+By following the above steps, the system performance was significantly improved. After cleaning up unnecessary files, disabling unnecessary startup programs, and updating system drivers, the CPU and RAM usage returned to normal levels, and applications began to run more smoothly.
