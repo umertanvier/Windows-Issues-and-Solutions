@@ -1,0 +1,39 @@
+# File Corruption
+
+## Symptoms:
+- Files fail to open or become unreadable.
+- Error messages such as **"File is corrupted"** or **"Cannot read file"** appear.
+- The file crashes the program it’s being opened in.
+- Sometimes, you may not be able to copy, move, or delete the file.
+
+## Most Common Fixes:
+
+1. **Use CHKDSK to Repair Disk Errors**:
+   - Corruption can often happen because of disk errors or bad sectors on your hard drive. The **CHKDSK** tool checks your disk for logical errors and repairs them, which can resolve file corruption issues.
+   - To run **CHKDSK**:
+     - Open **Command Prompt (Admin)** by right-clicking on the **Start** button and selecting **Command Prompt (Admin)** or **Windows PowerShell (Admin)**.
+     - Type the following command:
+       ```bash
+       chkdsk C: /f /r
+       ```
+     - This command checks and repairs the file system (`/f`) and locates and repairs bad sectors (`/r`) on the **C:** drive. You may need to type **Y** to schedule the scan on next reboot if the drive is in use.
+     - Restart your computer to allow **CHKDSK** to run and repair any disk errors. Once complete, check if the file corruption issue is resolved.
+
+2. **Use File Repair Software**:
+   - If the file corruption is not repaired by **CHKDSK**, you can try using specialized **file repair software** that helps recover corrupted files. There are several third-party tools available for repairing corrupted files such as documents, videos, or pictures.
+   - Some popular file repair tools are:
+     - **Stellar File Repair** (for documents, videos, and images).
+     - **Yodot File Repair** (for Word, Excel, and other file formats).
+     - **DiskInternals Office Recovery** (for MS Office files).
+   - Install a trusted tool, run it on the corrupted file, and follow the on-screen instructions. These tools will attempt to repair the damaged files and restore them to working condition.
+
+3. **Restore from Backup or Previous Versions**:
+   - If the file corruption is severe and other methods don't work, you can try restoring the file from a **backup** or **Previous Versions** if available.
+   - To restore a file from **Previous Versions**:
+     - Right-click on the corrupted file or folder.
+     - Select **Restore previous versions**.
+     - Choose a version before the file was corrupted and click **Restore** to recover the file.
+   - If you use **cloud backup** (such as **OneDrive**, **Google Drive**, or **Dropbox**), you can check the online version of the file and restore it to an earlier state.
+
+## Fix:
+After running **CHKDSK** and allowing the system to repair disk errors, the file corruption issue was resolved. **File repair software** also helped recover some of the severely damaged files. Restoring from **Previous Versions** worked perfectly for files that could not be fixed using other methods.

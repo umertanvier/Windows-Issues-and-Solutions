@@ -1,0 +1,27 @@
+# External Device Not Recognized
+
+## Symptoms:
+- The external device (USB, printer, hard drive, etc.) is not showing up in **This PC** or in **Device Manager**.
+- The device appears as **"Unknown device"** or **"Device failed to start"**.
+- The device is not working properly or not recognized by the system at all.
+- External drives or peripherals are not responding or accessible.
+
+## Most Common Fixes:
+
+1. **Reinstall the Device Driver**:
+   - Sometimes, the device drivers get corrupted, causing the device to be unrecognized.
+   - To reinstall the driver:
+     - Right-click on the **Start Menu** and select **Device Manager**.
+     - Find your external device (e.g., USB or external hard drive) under the appropriate section (e.g., **Universal Serial Bus Controllers** or **Disk Drives**).
+     - Right-click on the device and select **Uninstall Device**.
+     - Disconnect and reconnect the device to your system. Windows should automatically reinstall the driver and recognize the device again.
+   - If it doesn’t automatically install, you can visit the manufacturer’s website and download the latest driver for the device.
+
+2. **Try the Device on Another USB Port or Computer**:
+   - Sometimes, the issue might be with the **USB port** itself. The port may be faulty or not providing enough power for the device.
+   - Try plugging the device into a **different USB port** on your computer.
+   - If it still doesn't work, try connecting the external device to another computer. If it works on a different computer, the issue is likely with your system's port or configuration.
+   - You can also try using a **powered USB hub** if the device requires more power than your computer’s port can provide.
+
+## Fix:
+After reinstalling the device driver and reconnecting the external device, it was recognized properly by the system. Additionally, plugging the device into a **different USB port** solved the issue when the device wasn’t recognized initially.

@@ -1,0 +1,34 @@
+# System Freezing
+
+## Symptoms:
+- The system becomes unresponsive and freezes during normal use.
+- The mouse and keyboard stop responding, and no actions can be performed.
+- The system may take a long time to respond after clicking or typing, or may remain completely frozen.
+- Frequent freezing may occur, particularly when opening programs or performing multiple tasks.
+
+## Most Common Fixes:
+
+1. **Restart the Computer**:
+   - A simple restart can resolve many temporary issues causing system freezes.
+   - Save your work and restart the system. This can help clear out any tasks or programs that are causing the system to freeze.
+
+2. **Check for Windows Updates**:
+   - Sometimes, outdated system files or drivers can cause system instability and freezing.
+   - Go to **Settings > Update & Security > Windows Update**, and click on **Check for Updates**. Install any pending updates to ensure the system has the latest patches and drivers.
+   - Restart the system after the update is installed.
+
+3. **Disable Unnecessary Startup Programs**:
+   - Too many programs running at startup can overwhelm system resources and cause freezing.
+   - Press `Ctrl + Shift + Esc` to open **Task Manager**, and go to the **Startup** tab.
+   - Disable any unnecessary programs that are set to run when Windows starts. Right-click and choose **Disable** for each non-essential program.
+   - Restart the system to see if the issue is resolved.
+
+4. **Run Disk Cleanup**:
+   - Over time, junk files and system clutter can slow down your system and cause freezing.
+   - Use **Disk Cleanup** to remove unnecessary files:
+     - Open the **Start Menu**, type **Disk Cleanup**, and open the tool.
+     - Select the **C:** drive, click **OK**, and then choose the files you want to delete (temporary files, system files, etc.).
+     - Click **OK** and then **Delete Files** to free up space and improve system performance.
+
+## Fix:
+After restarting the system and running **Windows Update**, the freezing issue was resolved. Disabling unnecessary startup programs and performing **Disk Cleanup** helped optimize system performance, ensuring smooth operation without freezing.

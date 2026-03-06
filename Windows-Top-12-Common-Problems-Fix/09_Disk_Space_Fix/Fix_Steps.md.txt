@@ -1,0 +1,34 @@
+# Low Disk Space
+
+## Symptoms:
+- Your system may run slowly or freeze due to insufficient disk space.
+- You may receive a warning like **"Low Disk Space"** on your **C:** drive.
+- Applications may fail to install or run properly due to a lack of space.
+- You may notice that files take longer to save or load.
+
+## Most Common Fixes:
+
+1. **Run Disk Cleanup**:
+   - **Disk Cleanup** removes temporary files, system files, and cached files that take up valuable space.
+   - To run **Disk Cleanup**:
+     - Open the **Start Menu**, type **Disk Cleanup**, and select the tool.
+     - Choose the **C:** drive (or the drive that’s low on space) and click **OK**.
+     - Select the file types you want to delete (temporary files, system files, etc.), and click **OK** to remove them.
+     - You can also click **Clean up system files** to delete old system files and updates that are no longer needed.
+
+2. **Uninstall Unnecessary Programs**:
+   - Unused or unnecessary programs can take up a lot of space on your hard drive. Uninstalling them can free up significant space.
+   - To uninstall programs:
+     - Go to **Settings > Apps > Apps & Features**.
+     - Scroll through the list and uninstall any programs you no longer need by selecting the program and clicking **Uninstall**.
+     - Be sure to review large programs or those that you don’t use frequently.
+
+3. **Move Files to External Storage**:
+   - If you're running out of space on your primary disk (usually **C:**), you can move files like videos, pictures, or documents to an external hard drive or cloud storage.
+   - To move files:
+     - Connect an external hard drive or set up a cloud storage account (like **OneDrive** or **Google Drive**).
+     - Move large files or folders to the external drive or cloud storage to free up space on your system drive.
+     - For cloud storage, simply drag and drop the files into your cloud folder to sync them.
+
+## Fix:
+After running **Disk Cleanup** and uninstalling unnecessary programs, the system performance improved significantly. Moving large files to **external storage** helped free up space on the primary disk, and now the system is running smoothly without any low disk space warnings.

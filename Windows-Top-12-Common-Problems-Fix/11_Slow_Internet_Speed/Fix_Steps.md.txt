@@ -1,0 +1,28 @@
+# Slow Internet Speed
+
+## Symptoms:
+- Web pages load slowly or not at all.
+- Streaming services buffer frequently.
+- Downloads and uploads take longer than usual.
+- Online games experience lag or delays.
+
+## Most Common Fixes:
+
+1. **Restart the Modem and Router**:
+   - One of the easiest and most effective solutions is to restart your **modem** and **router**.
+   - Simply unplug both the modem and router, wait for 30 seconds to 1 minute, and then plug them back in.
+   - This will refresh the network connection and often solves issues related to slow internet speeds.
+
+2. **Check for Background Applications Using Bandwidth**:
+   - Many times, other applications on your system might be consuming bandwidth and slowing down your internet connection.
+   - Open **Task Manager** by pressing `Ctrl + Shift + Esc`, and go to the **Processes** tab.
+   - Look for applications like **streaming services**, **cloud syncing tools** (e.g., **OneDrive**, **Google Drive**), or **update services** that may be using your internet in the background.
+   - Right-click on these apps and click **End Task** to stop them temporarily and check if internet speed improves.
+
+3. **Switch to a Wired Connection (Ethernet)**:
+   - If you're using **Wi-Fi** and experiencing slow speeds, try switching to a **wired Ethernet connection** if possible.
+   - A wired connection offers more stable and faster speeds than Wi-Fi, especially if there is interference from other devices or walls.
+   - Simply connect an Ethernet cable from your router to your device (e.g., laptop or PC) and check the internet speed again.
+
+## Fix:
+After restarting the **modem** and **router**, the internet speed improved significantly. Closing background applications like **cloud services** and **streaming apps** also helped free up bandwidth. Switching to a **wired connection** improved speed even further, providing more stable and faster internet access.
